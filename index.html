@@ -44,24 +44,26 @@
         <ul>
           <li><a href="#hero" class="active">Home</a></li>
           <li class="dropdown"><a href="#services"><span>Layanan</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <!-- <li><a href="layanan/pengangkatan-plt.html">Pengangkatan Kepala Sekolah Definitif</a></li>
-              <li><a href="layanan/pengangkatan-plt.html">Penonaktifan Jabatan Kepala Sekolah Definitif</a></li>
+            <ul class="dropdown-menu dropdown-menu-2-columns">
+              <li><a href="layanan/pengangkatan-ks.html">Pengangkatan Kepala Sekolah Definitif</a></li>
+              <!-- <li><a href="layanan/pengangkatan-plt.html">Penonaktifan Jabatan Kepala Sekolah Definitif</a></li>
               <li><a href="layanan/pengangkatan-plt.html">Pembaruan Data Kepala Sekolah Definitif</a></li> -->
               <li><a href="layanan/pengangkatan-plt.html">Pengangkatan PLT</a></li>
               <li><a href="layanan/pelepasan-plt.html">Pelepasan Jabatan PLT</a></li>
               <li><a href="layanan/pengajuan-ptk-baru.html">Pengajuan PTK Baru</a></li>
               <li><a href="layanan/pengajuan-mutasi-ptk.html">Pengajuan Mutasi PTK</a></li>
               <li><a href="layanan/pengaktifan-ptk.html">Pengaktifan PTK Non-Aktif</a></li>
-              <li><a href="layanan/pengaktifan-jabatan.html">Pengaktifan dan Perubahan Jabatan PTK</a></li>
+              <li><a href="layanan/perubahan-jabatan.html">Perubahan Jabatan PTK</a></li>
               <li><a href="layanan/perubahan-induk.html">Perubahan Induk dan Non Induk</a></li>
               <li><a href="layanan/perubahan-atribut-penugasan.html">Perubahan Atribut Penugasan</a></li>
               <li><a href="layanan/pengajuan-nuptk.html">Pengajuan NUPTK</a></li>
               <li><a href="layanan/penonaktifan-ptk.html">Penonaktifan PTK</a></li>
               <li><a href="layanan/perubahan-status.html">Perubahan Status Kepegawaian</a></li>
               <li><a href="layanan/pengajuan-hapus-akun.html">Pengajuan Penghapusan Akun PTK</a></li>
+              <li><a href="layanan/pengajuan-reset-akun.html">Pengajuan Reset 2FA / OTP Akun PTK</a></li>
             </ul>
           </li>
+          <li><a href="#progress" class="active">Progress Pengajuan</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -84,7 +86,7 @@
               <p>Selamat datang di layanan informasi per DAPODIK an untuk urusan PTK (Pendidik dan Tenaga Kependidikan) di Lingkungan Dinas Pendidikan dan Kebudayaan Kota Malang.</p>
               <div class="hero-buttons">
                 <a href="#services" class="btn btn-primary">Lihat Layanan</a>
-                <a href="#" class="btn btn-outline">Pantau Progress</a>
+                <a href="#progress" class="btn btn-outline">Pantau Progress</a>
               </div>
               <div class="hero-stats">
                 <div class="stat-item">
@@ -128,13 +130,13 @@
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
-          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pengangkatan-ks.html"><div class="service-icon">
                 <i class="bi bi-person-fill-up"></i>
-              </div>
-              <h4><a href="layanan/pengangkatan-ks.html">Pengangkatan Kepala Sekolah Definitif</a></h4>
-              <p>Pengangkatan Kepala Sekolah Definitif Negeri dan Swasta</p>
+              </div></a>
+              <h4><a href="layanan/pengangkatan-ks.html">Pengangkatan Kepala Sekolah Definitif Swasta</a></h4>
+              <p>Pengangkatan Kepala Sekolah Definitif di Sekolah Swasta</p>
               <a href="layanan/pengangkatan-ks.html" class="service-link">
                 <span>Cara dan Persyaratan</span>
                 <i class="bi bi-arrow-right"></i>
@@ -142,21 +144,21 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
               <div class="service-icon">
                 <i class="bi bi-person-fill-down"></i>
               </div>
               <h4><a href="layanan/pengangkatan-ks.html">Penonaktifan Jabatan Kepala Sekolah Definitif</a></h4>
-              <p>Penonaktifan Jabatan Kepala Sekolah Definitif Negeri dan Swasta</p>
-              <a href="layanan/pengangkatan-ks.html" class="service-link">
+              <p>Penonaktifan Jabatan Kepala Sekolah Definitif Swasta</p>
+              <a href="layanan/pelepasan-ks.html" class="service-link">
                 <span>Cara dan Persyaratan</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <!-- <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
               <div class="service-icon">
                 <i class="bi bi-card-checklist"></i>
@@ -172,9 +174,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pengangkatan-plt.html"><div class="service-icon">
                 <i class="bi bi-person-workspace"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/pengangkatan-plt.html">Pengangkatan PLT</a></h4>
               <p>Pengangkatan PLT Kepala Sekolah Negeri dan Swasta</p>
               <a href="layanan/pengangkatan-plt.html" class="service-link">
@@ -186,9 +188,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pelepasan-plt.html"><div class="service-icon">
                 <i class="bi bi-person-dash-fill"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/pelepasan-plt.html">Pelepasan Jabatan PLT</a></h4>
               <p>Pelepasan Jabatan PLT Kepala Sekolah Negeri dan Swasta</p>
               <a href="layanan/pelepasan-plt.html" class="service-link">
@@ -200,11 +202,11 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pengajuan-ptk-baru.html"><div class="service-icon">
                 <i class="bi-person-add"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/pengajuan-ptk-baru.html">Pengajuan PTK Baru</a></h4>
-              <p>Layanan ini khusus untuk penambahan PTK baru di sekolah swasta</p>
+              <p>Pengajuan Pendidik dan Tenaga Kependidikan Baru di Sekolah Negeri dan Swasta</p>
               <a href="layanan/pengajuan-ptk-baru.html" class="service-link">
                 <span>Cara dan Persyaratan</span>
                 <i class="bi bi-arrow-right"></i>
@@ -214,9 +216,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pengajuan-mutasi-ptk.html"><div class="service-icon">
                 <i class="bi-arrow-left-right"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/pengajuan-mutasi-ptk.html">Pengajuan Mutasi PTK</a></h4>
               <p>Pemindahan Unit Kerja untuk PTK di Sekolah Negeri dan Sekolah Swasta</p>
               <a href="layanan/pengajuan-mutasi-ptk.html" class="service-link">
@@ -228,9 +230,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pengaktifan-ptk.html"><div class="service-icon">
                 <i class="bi-arrow-counterclockwise"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/pengaktifan-ptk.html">Pengaktifan PTK Non-Aktif</a></h4>
               <p>Pengajuan pengaktifan kembali bagi PTK non-aktif</p>
               <a href="layanan/pengaktifan-ptk.html" class="service-link">
@@ -242,12 +244,12 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/perubahan-jabatan.html"><div class="service-icon">
                 <i class="bi-patch-check-fill"></i>
-              </div>
-              <h4><a href="layanan/pengaktifan-jabatan.html">Pengaktifan dan Perubahan Jabatan PTK</a></h4>
-              <p>Pengajuan pengaktifan jabatan PTK yang di non-aktifkan dan Perubahan Jabatan PTK aktif</p>
-              <a href="layanan/pengaktifan-jabatan.html" class="service-link">
+              </div></a>
+              <h4><a href="layanan/perubahan-jabatan.html">Perubahan Jabatan PTK</a></h4>
+              <p>Pengajuan Perubahan Jabatan PTK aktif</p>
+              <a href="layanan/perubahan-jabatan.html" class="service-link">
                 <span>Cara dan Persyaratan</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -256,9 +258,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/perubahan-induk.html"><div class="service-icon">
                 <i class="bi bi-building-up"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/perubahan-induk.html">Perubahan Induk dan Non Induk</a></h4>
               <p>Pengajuan perubahan status induk pada penugasan PTK yang memiliki lebih dari satu penugasan sekolah</p>
               <a href="layanan/perubahan-induk.html" class="service-link">
@@ -270,9 +272,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/perubahan-atribut-penugasan.html"><div class="service-icon">
                 <i class="bi bi-file-earmark-person"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/perubahan-atribut-penugasan.html">Perubahan Atribut Penugasan</a></h4>
               <p>Pengajuan perubahan atribut penugasan PTK seperti nomor surat tugas, tanggal surat tugas, dan TMT</p>
               <a href="layanan/perubahan-atribut-penugasan.html" class="service-link">
@@ -284,9 +286,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pengajuan-nuptk.html"><div class="service-icon">
                 <i class="bi bi-person-vcard"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/pengajuan-nuptk.html">Pengajuan NUPTK</a></h4>
               <p>Pengajuan NUPTK bagi PTK aktif di Dapodik</p>
               <a href="layanan/pengajuan-nuptk.html" class="service-link">
@@ -298,9 +300,9 @@
 
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/penonaktifan-ptk.html"><div class="service-icon">
                 <i class="bi bi-person-x"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/penonaktifan-ptk.html">Penonaktifan PTK</a></h4>
               <p>Penonaktifan PTK aktif</p>
               <a href="layanan/penonaktifan-ptk.html" class="service-link">
@@ -312,9 +314,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/perubahan-status.html"><div class="service-icon">
                 <i class="bi bi-person-gear"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/perubahan-status.html">Perubahan Status Kepegawaian</a></h4>
               <p>Perubahan status kepegawaian PTK aktif</p>
               <a href="layanan/perubahan-status.html" class="service-link">
@@ -326,12 +328,26 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-card">
-              <div class="service-icon">
+              <a href="layanan/pengajuan-hapus-akun.html"><div class="service-icon">
                 <i class="bi-person-slash"></i>
-              </div>
+              </div></a>
               <h4><a href="layanan/pengajuan-hapus-akun.html">Pengajuan Penghapusan Akun PTK</a></h4>
               <p>Pengajuan penghapusan akun PTK</p>
               <a href="layanan/pengajuan-hapus-akun.html" class="service-link">
+                <span>Cara dan Persyaratan</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-card">
+              <a href="layanan/pengajuan-reset-akun.html"><div class="service-icon">
+                <i class="bi bi-shield-lock-fill"></i>
+              </div></a>
+              <h4><a href="layanan/pengajuan-reset-akun.html">Pengajuan Reset 2FA / OTP Akun PTK</a></h4>
+              <p>Pengajuan Reset 2FA / OTP Akun PTK (BUKAN INFOGTK)</p>
+              <a href="layanan/pengajuan-reset-akun.html" class="service-link">
                 <span>Cara dan Persyaratan</span>
                 <i class="bi bi-arrow-right"></i>
               </a>
@@ -341,6 +357,114 @@
       </div>
 
     </section><!-- /Services Section -->
+
+    <!-- Progress Section -->
+    <section id="progress" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Progress Pengajuan</h2>
+        <p>Cek status pengajuanmu melalui form di bawah dengan menuliskan nomor agenda pada lembar bukti pengiriman berkas di resepsionis dikbud.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-center">
+          <div class="col-gy-4" data-aos="fade-right" data-aos-delay="200">
+            <div class="contact-form-card">
+              <div class="form-header">
+                <h3>Masukkan nomor agenda yang ada pada bukti pengiriman berkas</h3>
+              </div>
+
+              <form class="php-email-form">
+                <div class="mb-3">
+                  <input type="text" class="form-control text-center" id="searchInput" placeholder="Ketik nomor agenda pada bukti pengiriman berkas ..." onkeyup="filterTabel()">
+                </div>
+              </form>
+              <div id="resultContainer"></div>             
+
+              <script>
+                  // Ganti dengan URL CSV Google Sheets Anda
+                  const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRIzPL8YP9Iq42yhjv2MIN-J-pUHoGsy_JvVEuGvQ1l8Tjmx-0tuoQzR615jmEXEtbcPpeYJRyY68ZE/pub?output=csv';
+                  let semuaData = [];
+
+                  window.onload = function() {
+                      if (csvUrl === '') {
+                          document.getElementById('resultContainer').innerHTML = `
+                              <div class="alert alert-danger text-center" role="alert">
+                                  <i class="bi bi-exclamation-triangle-fill me-2"></i> 
+                              </div>`;
+                          return;
+                      }
+
+                      Papa.parse(csvUrl, {
+                          download: true,
+                              header: true,
+                          complete: function(results) {
+                              semuaData = results.data;
+                          },
+                          error: function(err) {
+                              document.getElementById('resultContainer').innerHTML = `
+                                  <div class="alert alert-danger text-center" role="alert">
+                                      <i class="bi bi-x-circle-fill me-2"></i> Gagal memuat data spreadsheet.
+                                  </div>`;
+                          }
+                      });
+                  };
+
+                  // Fungsi pencarian (hanya muncul saat diketik & membatasi 1 baris hasil)
+                  function filterTabel() {
+                      const keyword = document.getElementById('searchInput').value.trim().toLowerCase();
+                      const container = document.getElementById('resultContainer');
+
+                      // Jika kotak pencarian dikosongkan, bersihkan area hasil
+                      if (keyword === "") {
+                          container.innerHTML = "";
+                          return;
+                      }
+
+                      // Menyaring data berdasarkan kata kunci
+                      const dataSaring = semuaData.filter(row => {
+                          const rowString = (row['NO AGENDA'] || '').toLowerCase();
+                          return rowString.includes(keyword);
+                      });
+
+                      // Jika data tidak ditemukan
+                      if (dataSaring.length === 0) {
+                          container.innerHTML = `
+                              <div class="text-center text-danger py-3">
+                                  Surat tidak ditemukan atau surat belum didisposisikan.
+                              </div>`;
+                          return;
+                      }
+
+                      // AMBIL HANYA 1 BARIS PERTAMA dari hasil pencarian
+                      const row = dataSaring[0];
+                      const keys = Object.keys(row);
+                      
+                      // Contoh menampilkan 1 baris dalam bentuk list/kartu detail yang rapi
+                      let html = '<div class="card bg-transparent border border-secondary p-4 mt-3">';
+                      html += '<h5 class="fw-bold mb-3 text-primary"><i class="bi bi-info-circle me-2"></i>Hasil Pencarian (1 Data Ditemukan):</h5>';
+                      html += '<ul class="list-unstyled mb-0">';
+
+                      keys.forEach(key => {
+                          html += `
+                              <li class="mb-3 d-flex result-item">
+                                <strong class="text-white result-label" style="width: 160px; flex-shrink: 0;">${key}</strong> 
+                                <span class="text-white me-2 result-colon">:</span>
+                                <span class="text-white text-break">${row[key] || '-'}</span>
+                              </li>`;
+                      });
+
+                      html += '</ul></div>';
+                      
+                      container.innerHTML = html;
+                  }
+              </script>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
 
   <footer id="footer" class="footer position-relative dark-background">
 
@@ -405,6 +529,8 @@
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/glightbox.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
 
   <!-- Main JS File -->
   <script src="js/main.js"></script>
