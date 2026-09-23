@@ -9,35 +9,36 @@
 }
 
 :root { 
-  --background-color: #fae8e8;
-  --default-color: #4a4044;
-  --heading-color: #2b1d22;
-  --accent-color: #c75b7a;
-  --surface-color: #ffffff;
-  --contrast-color: #ffffff;
+  --background-color: #f0f4f8; /* Background utama website (biru muda lembut/grid base) */
+  --default-color: #334155;    /* Warna teks paragraf (abu-abu kebiruan gelap yang kontras dan nyaman) */
+  --heading-color: #0f172a;    /* Warna untuk judul dan heading (gelap dan tajam) */
+  --accent-color: #2c5d9e;     /* Warna aksen tetap menggunakan pink/rose yang elegan */
+  --surface-color: #ffffff;    /* Warna background untuk kartu, kotak, atau elemen terstruktur */
+  --contrast-color: #ffffff;   /* Warna teks di atas elemen aksen/heading */
 }
 
+/* Nav Menu Colors - Disesuaikan untuk tema latar belakang biru muda */
 :root {
-  --nav-color: #5c4d52;
-  --nav-hover-color: #c75b7a;
-  --nav-mobile-background-color: #f5dcdc;
-  --nav-dropdown-background-color: #ffffff;
-  --nav-dropdown-color: #5c4d52;
-  --nav-dropdown-hover-color: #c75b7a;
+  --nav-color: #475569;         /* Warna default link menu navigasi */
+  --nav-hover-color: #2c5d9e;   /* Warna link navigasi saat di-hover atau aktif */
+  --nav-mobile-background-color: #e2e8f0; /* Background menu mobile */
+  --nav-dropdown-background-color: #ffffff; /* Background dropdown menu */
+  --nav-dropdown-color: #475569;    /* Warna teks item dropdown */
+  --nav-dropdown-hover-color: #2c5d9e; /* Warna teks item dropdown saat di-hover */
 }
 
 /* Color Presets - Override khusus untuk section tertentu */
 
 .light-background {
-  --background-color: #f2d6d6;
+  --background-color: #e2e8f0; /* Sedikit lebih gelap dari background utama untuk variasi section */
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #1a1517;
-  --default-color: #e8e7f7;
+  --background-color: #0f172a; /* Tema gelap yang selaras dengan nuansa kebiruan */
+  --default-color: #e2e8f0;
   --heading-color: #ffffff;
-  --surface-color: #2c2427;
+  --surface-color: #1e293b;
   --contrast-color: #ffffff;
 }
 
@@ -4365,7 +4366,7 @@ section,
     min-width: 100% !important;
     max-height: 70vh;
     overflow-y: auto;
-    background-color: #ea9999 !important; 
+    background-color: #e1ecfa !important; 
   }
 
   .dropdown-menu.dropdown-menu-2-columns li {
