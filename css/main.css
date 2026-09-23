@@ -13,17 +13,16 @@
   --default-color: #334155;
   --heading-color: #0f172a;
   --accent-color: #2c5d9e;
-  --surface-color: #ffffff; 
+  --surface-color: #ffffff;
   --contrast-color: #ffffff;
 }
 
-/
 :root {
-  --nav-color: #475569; 
-  --nav-hover-color: #2c5d9e;
+  --nav-color: #475569;  
+  --nav-hover-color: #2c5d9e; 
   --nav-mobile-background-color: #e2e8f0; 
-  --nav-dropdown-background-color: #ffffff;
-  --nav-dropdown-color: #475569;
+  --nav-dropdown-background-color: #ffffff; 
+  --nav-dropdown-color: #475569; 
   --nav-dropdown-hover-color: #2c5d9e;
 }
 
