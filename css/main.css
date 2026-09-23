@@ -9,33 +9,33 @@
 }
 
 :root { 
-  --background-color: #f0f4f8; /* Background utama website (biru muda lembut/grid base) */
-  --default-color: #334155;    /* Warna teks paragraf (abu-abu kebiruan gelap yang kontras dan nyaman) */
-  --heading-color: #0f172a;    /* Warna untuk judul dan heading (gelap dan tajam) */
-  --accent-color: #2c5d9e;     /* Warna aksen tetap menggunakan pink/rose yang elegan */
-  --surface-color: #ffffff;    /* Warna background untuk kartu, kotak, atau elemen terstruktur */
-  --contrast-color: #ffffff;   /* Warna teks di atas elemen aksen/heading */
+  --background-color: #f0f4f8;
+  --default-color: #334155;
+  --heading-color: #0f172a;
+  --accent-color: #2c5d9e;
+  --surface-color: #ffffff; 
+  --contrast-color: #ffffff;
 }
 
-/* Nav Menu Colors - Disesuaikan untuk tema latar belakang biru muda */
+/
 :root {
-  --nav-color: #475569;         /* Warna default link menu navigasi */
-  --nav-hover-color: #2c5d9e;   /* Warna link navigasi saat di-hover atau aktif */
-  --nav-mobile-background-color: #e2e8f0; /* Background menu mobile */
-  --nav-dropdown-background-color: #ffffff; /* Background dropdown menu */
-  --nav-dropdown-color: #475569;    /* Warna teks item dropdown */
-  --nav-dropdown-hover-color: #2c5d9e; /* Warna teks item dropdown saat di-hover */
+  --nav-color: #475569; 
+  --nav-hover-color: #2c5d9e;
+  --nav-mobile-background-color: #e2e8f0; 
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #475569;
+  --nav-dropdown-hover-color: #2c5d9e;
 }
 
 /* Color Presets - Override khusus untuk section tertentu */
 
 .light-background {
-  --background-color: #e2e8f0; /* Sedikit lebih gelap dari background utama untuk variasi section */
+  --background-color: #e2e8f0;
   --surface-color: #ffffff;
 }
 
 .dark-background {
-  --background-color: #0f172a; /* Tema gelap yang selaras dengan nuansa kebiruan */
+  --background-color: #0f172a;
   --default-color: #e2e8f0;
   --heading-color: #ffffff;
   --surface-color: #1e293b;
